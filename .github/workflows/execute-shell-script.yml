@@ -1,0 +1,19 @@
+name: Execute shell script
+
+on: push
+
+jobs:
+    execute-script:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout repo
+              uses: actions/checkout@v4
+
+            - name: List Repo file
+              run: ls -lrta
+            
+            - name: executing Shell script
+              run: ./ascii-script.sh
+            
+            
+
