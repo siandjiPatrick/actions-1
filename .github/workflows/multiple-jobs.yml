@@ -24,7 +24,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Dowload artifact
-              uses: actions/Dowload-artifact@v7
+              uses: actions/Download-artifact@v7
               with:
                 name: dragon-text-file
 
@@ -36,7 +36,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Dowload artifact
-              uses: actions/Dowload-artifact@v7
+              uses: actions/Download-artifact@v7
               with:
                 name: dragon-text-file
 
